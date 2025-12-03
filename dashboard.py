@@ -41,7 +41,7 @@ MQTT_PASS = "SUA_SENHA_AQUI"
 TOPIC = "iot/banca/sensor_data"
 
 st.set_page_config(page_title="Monitoramento Preditivo", layout="wide")
-st.title("🏭 Monitoramento de Ativos - Manutenção Preditiva")
+st.title("Monitorização de Ativos - Manutenção Preditiva")
 
 # --- BUFFER GLOBAL ---
 if 'global_data' not in st.session_state:
