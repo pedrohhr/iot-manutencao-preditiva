@@ -1,0 +1,14 @@
+# Ignorar ambiente virtual do Python (muito pesado)
+.venv/
+venv/
+env/
+
+# Ignorar arquivos temporários do Python
+__pycache__/
+*.py[cod]
+
+# Ignorar arquivos de sistema do Mac
+.DS_Store
+
+# (Opcional) Ignorar o arquivo do modelo se quiser manter segredo industrial
+# *.h
